@@ -30,17 +30,19 @@ public class QuizGame {
 		}
 		
 		
+		answer = JOptionPane.showInputDialog(null, "what coding languge does Unity use");
+		if (answer.equalsIgnoreCase("C#")) {
+		score++;
 		
+		}
 		
+		answer = JOptionPane.showInputDialog("what coding languge does unreal use");
+		if (answer.equalsIgnoreCase("C++")) {
 		
+		score++;
+		}
 		
-		
-		
-		
-		
-		
-		
-		JOptionPane.showMessageDialog(null, "your score is "+ score+ "!");
+		JOptionPane.showMessageDialog(null, "your score is "+ score+ "out of five!");
 		
 		 }
 	
